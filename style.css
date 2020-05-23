@@ -67,6 +67,7 @@ a{
 	background-image: linear-gradient(to right, #808080 , white);
 	margin: 0;
 	padding: 0;
+
 }
 
 .carousel-item > img{
@@ -76,11 +77,12 @@ a{
 }
 
 .front{
-	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	display: flex;
+	/*grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	grid-template-rows: 1fr;
-	grid-gap: 20px;
-	margin: 20px;
+	grid-gap: 20px;*/
+	margin: 20 px;
+	justify-content: center;
 	
 }
 
